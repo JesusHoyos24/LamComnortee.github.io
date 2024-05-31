@@ -1,0 +1,168 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-color: white;
+position: fixed;
+width: 100%;
+z-index: 5;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.container{
+  width: 92%;
+  margin: 0 auto;
+}
+
+.navbar{
+  padding-top: 1%;
+  padding-bottom: 1%;  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-branding{
+  margin-left: 0;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  gap: 60px;
+}
+
+.nav-link{
+  transition: 0.3s ease-out;
+  color: #102169;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  color: dodgerblue;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #0078B7;
+}
+
+@media(max-width:1024px){
+  .hamburger{
+    display: block;
+  }
+  .nav-branding img{
+width: 90%; 
+ }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
+}
+
+
+
+.textologoimg{
+  color: #102169;
+  text-align: center;
+  margin-bottom:1px;
+  letter-spacing: 1px;
+
+}
+
+
+
+
+.nav-menu a {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-menu a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust the position of bars to align with text */
+  width: 0;
+  height: 10%;
+  background-color: #0078B7; /* Set the color of the bar */
+  transition: width 0.3s; /* Add transition effect */
+}
+
+.nav-menu a:hover::after {
+  width: 100%; /* Expand the width of the bar to 100% on hover */
+}
+
+
+@media (min-width: 650px) and (max-width: 1024px) {
+
+  .nav-menu{
+margin-top: 1.5%;
+  }
+}
+
+
+@media (min-width: 291px)  and (max-width: 649px) {
+
+  .nav-menu{
+    margin-top: -0.2%;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .nav-menu{
+    margin-top: -7%;
+  }
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+
+

@@ -1,0 +1,370 @@
+
+/* Contactenos page */
+/* ------------------------------------------------------- */
+.contactanos-page{ 
+    display: flex;
+    background-color: #102169;
+    height: auto;
+  }
+  
+  .todo-Contacto{
+    display: flex;
+    width: 90%;
+  
+  }
+  
+  
+  .contact-form {
+  
+    padding: 1%;
+    margin-left: 8%;
+    color: white;
+  }
+  
+  .contactenos {
+    font-family: Lato,sans-serif;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .form-group1{
+    display: flex;
+    font-size: 20px;
+  margin-top: 5%;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group1 label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"], textarea {
+    
+    padding: 10px 10px 10px 0;
+    background-color: #102169;
+    margin-bottom: 3%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color:#0078B7;
+    width: 100%;
+    border-bottom: 1px solid white;
+  }
+  
+  .form-group input[type="tel"],
+  .form-group1 input[type="email"], textarea {
+    
+    background-color: #102169;
+    margin-bottom: 3%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: NONE;
+    color:#0078B7;
+  }
+  
+  .form-group textarea {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: #102169;
+    color:#0078B7;
+    border: 1px solid white;
+  }
+  
+  
+  
+  .custom-input.autofilled {
+    background-color:  #102169; /* Set your desired background color */
+    outline: none;
+  
+  }
+  
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+      outline: none;
+      
+  }
+  
+  
+  
+  .formflex{
+    display: flex;
+    margin-right: 3%;
+    width:100%;
+    border-bottom: 1px solid white;
+  
+  }
+  
+  
+  .formflex1{
+    display: flex;
+    border-bottom: 1px solid white;
+    margin: 0;
+    width:100%;
+  
+  }
+  
+  
+  
+  textarea {
+    resize: none;
+  
+      height: 140px; /* Set the desired height */
+  }
+  
+  #button {
+    border: 3px solid white;
+    background-color: white; /* Set the background color */
+    color:#102169; /* Set the text color */
+    font-size: 20px; /* Set the font size */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    border-radius: 4px; /* Add rounded corners */
+  }
+  
+  #button:hover {
+    background-color: #0056b3;
+  }
+  
+  .formtorow{
+    display: flex;
+    margin-bottom: 2%;
+    width: 100%;
+  }
+  
+  #nombre{
+    width: auto;
+  }
+  #mensaje{
+    width: auto;
+  }
+  .contactanosDirecciones{
+    display: flex;
+    padding-bottom: 10%;
+  
+  }
+  
+  .Visitenos{
+    margin-top: 20%;
+      color: white;
+      font-family: "Poppins", Sans-serif;
+      font-size: 1.7em;
+      font-weight: 600;
+      letter-spacing: 2px;
+      margin-bottom: 4%;
+      
+  }
+  #Visitenos{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+  
+  }
+  .form-group #telefono{
+    margin-left: 0%;
+    margin-top: auto;
+    }
+    #telefono{
+      width: 58%;
+      margin-left: 5%;
+      margin-right: 5%;
+      }
+  .Telefono{
+    margin-top: 10%;
+    
+      color: white;
+      font-family:  "Sequel Sans Body";
+      font-size: 1.7em;
+      font-weight: 600;
+      letter-spacing: 2px;
+      margin-bottom: 4%;
+  }
+  
+  .lugardelLocal{
+    display: block;
+    margin-top: 1%;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .allrights{
+    height: 50px;
+    background-color: #1B1B1B;
+    
+  }
+  
+  .hoyber{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 0.9rem;
+    padding-top:1.2% ;
+    text-align: center;
+  }
+  
+  
+  @media only screen and (min-width: 1025px) {
+  
+  .formtorow{
+    flex-direction: row;
+  }
+  .contactanos-page{ 
+  flex-direction: row;
+  }
+  .todo-Contacto{
+    flex-direction: row;
+  }
+  .contactanosDirecciones{
+    flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+    width: 35%;
+    margin-left: 5%;
+  }
+  .contact-form {
+  
+    width: 55%;
+  
+  }
+  #button{
+    margin-left: 50%;
+    padding: 10px 35px; /* Set padding around the text */
+  
+  }
+  }
+  
+  
+  @media (min-width: 650px) and (max-width: 1024px) {
+  
+  .formtorow{
+    flex-direction: column;
+    width: auto;
+  }
+  .contactanos-page{
+    flex-direction: column;
+  }
+  .todo-Contacto{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactanosDirecciones{
+    flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+    width: 100%;
+  }
+  .contact-form {
+    width: 90%;
+  }
+  .contactanosDirecciones{
+  margin-left: 5%;  
+  margin-right: 5%;  
+  
+  }
+  #button{
+    margin-left: 32%;
+  
+  }
+  
+  .conocemas{
+    padding: 15px 15px; /* Set padding around the text */
+    font-size: 20px; /* Set the font size */
+  }
+  .contactanos{
+    padding: 10px 20px; /* Set padding around the text */
+    font-size: 26px; /* Set the font size */
+  }
+  #button{
+    padding: 10px 35px; /* Set padding around the text */
+  
+  }
+  }
+  @media (min-width: 291px)  and (max-width: 649px) {
+  
+  
+  .formtorow{
+    flex-direction: column;
+    width: auto;
+  }
+  .contactanos-page{
+    flex-direction: column;
+  }
+  .todo-Contacto{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactanosDirecciones{
+    flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+    width: 100%;
+  }
+  .contact-form {
+    width: 90%;
+  }
+  .contactanosDirecciones{
+  margin-left: 5%;  
+  margin-right: 5%;  
+  
+  }
+  #button{
+    padding: 10px 35px; /* Set padding around the text */
+    margin-left: 32%;
+  
+  
+  }
+  }
+  
+  
+  @media screen and (max-width: 290px) {
+  
+  
+  .formtorow{
+    flex-direction: column;
+    width: auto;
+    }
+    .contactanos-page{
+    flex-direction: column;
+    }
+    .todo-Contacto{
+    flex-direction: column;
+    align-items: center;
+    }
+    .contactanosDirecciones{
+    flex-direction: column;
+    
+    }
+    .contactanosDirecciones{
+    width: 100%;
+    }
+    .contact-form {
+    width: 90%;
+    }
+    .contactanosDirecciones{
+    margin-left: 5%;  
+    margin-right: 5%;  
+    
+    }
+    #button{
+    margin-left: 32%;
+    padding: 5px 15px; /* Set padding around the text */
+    
+    }
+  }

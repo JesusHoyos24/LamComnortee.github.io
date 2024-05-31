@@ -1,0 +1,698 @@
+/*Scrollbar*/
+/*------------------------------------------------------------------------------------------*/
+html::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #102169;
+    border-radius: 16px;
+    box-shadow: inset 2px 2px 2px hsla(0, 2%, 10%, 0.25),inset -2px -2px 2px rgba(0,0,0,.25);
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+  }
+  /*------------------------------------------------------------------------------------------*/
+  
+  
+  
+  /*Body*/
+  /*------------------------------------------------------------------------------------------*/
+  body{
+      margin: 0;
+      padding: 0;
+  }
+  
+  /*------------------------------------------------------------------------------------------*/
+  
+  @media screen and (max-width: 290px) {
+    .contactanostop
+    {
+    width: 100%;
+    text-align: center;
+    
+    
+    }
+    .forms{
+      margin-right: 3%;
+
+    }
+    .telubihor{
+      margin-bottom: 2rem;
+      width: 2;
+    }
+    .imgslogan{
+      display: none;
+    }
+    .middleIndex{
+      align-items: center;
+      flex-direction: column;
+
+    }
+    .contactenostelefonos{
+      margin-left: 10%;
+      margin-bottom: 5%;
+      width: 60%;
+    
+    }
+  
+    .forms{
+      width: 90%;
+
+    }
+    #Slogan{
+      margin-top: 25%;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 0;
+    
+    }
+    
+    #slogan2{
+      display: none;
+  }
+  
+  
+    .firstIndex-Middle{
+      font-size: 1.8rem;
+    }
+  
+   
+  
+    .productos{
+      padding: 5px 10px; /* Adjust padding as needed */
+  font-size: 0.7rem ;
+  letter-spacing: 1px;
+    }
+  
+  
+  
+  .text-container {
+      width: 80%; /* Make the text container full width */
+      justify-content: center; /* Center the navigation items */
+      font-size: 8px;
+  }
+ 
+  
+  .formtorow{
+  flex-direction: column;
+  width: auto;
+  }
+  .contactanos-page{
+  flex-direction: column;
+  }
+  .todo-Contacto{
+  flex-direction: column;
+  align-items: center;
+  }
+  .contactanosDirecciones{
+  flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+  width: 90%;
+  }
+  .contact-form {
+  width: 90%;
+  }
+  .contactanosDirecciones{
+  margin-left: 5%;  
+  margin-right: 5%;  
+  
+  }
+  #button{
+  margin-left: 32%;
+  
+  }
+  
+
+  .contactanos{
+    padding: 5px 15px; /* Set padding around the text */
+    font-size: 19px; /* Set the font size */
+  }
+  #button{
+    padding: 5px 15px; /* Set padding around the text */
+  
+  }
+  .lugardelLocal{
+    font-size: 14px;
+
+  }
+
+  }
+    
+  @media (min-width:    291px)  and (max-width: 649px) {
+
+    .contactanostop
+{
+width: 100%;
+text-align: center;
+
+
+}
+
+    .forms{
+      margin-right: 3%;
+
+    }
+    .telubihor{
+      margin-bottom: 2rem;
+      width: 100%;
+
+    }
+    .imgslogan{
+      display: none;
+    }
+    .middleIndex{
+      align-items: center;
+      flex-direction: column;
+
+    }
+    .contactenostelefonos{
+      margin-left: 10%;
+      margin-bottom: 5%;
+    
+    }
+   
+    .forms{
+      width: 90%;
+
+    }
+    #Slogan{
+      margin-top: 23%;
+      font-size: 2.6rem;
+      font-weight: bold;
+      margin-bottom: 0;
+    
+    }
+    
+    #slogan2{
+      display: none;
+  
+  }
+
+  
+    .text-container {
+      width: 50%;
+        justify-content: center; /* Center the navigation items */
+        font-size: 10px;
+    }
+
+  
+  
+
+  .contactanos-page{
+    flex-direction: column;
+  }
+  .todo-Contacto{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactanosDirecciones{
+    flex-direction: column;
+  
+  }
+ 
+ 
+  .lugardelLocal{
+    font-size: 18px;
+
+  }
+ 
+
+    }
+  
+  
+    
+  
+  
+  
+  @media (min-width: 650px) and (max-width: 1024px) {
+    .forms{
+      margin-left: 7%;
+
+    }
+    .contactenostelefonos{
+      margin-left: 6%;
+    
+    }
+    .forms{
+      width: 50%;
+
+    }
+    #Slogan{
+      margin-top: 17%;
+      margin-left: 20%;
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 0;
+    
+    }
+    
+    #slogan2{
+      width: 60%;
+      
+    font-size: 19px;
+    margin-left: 20%;
+  }
+          
+      .firstIndex-Middle{
+        font-size: 3rem;
+      }
+    
+
+      .productos{
+        padding: 7px 10px; /* Adjust padding as needed */
+    font-size: 0.8rem ;
+    letter-spacing: 1px;
+      }
+    
+   
+    .text-container {
+      width: 50%;
+        justify-content: center; /* Center the navigation items */
+        font-size: 1rem;
+    }
+  
+
+  
+  .contactenos {
+    font-size: 2rem;
+  }
+  
+  .formtorow{
+    flex-direction: column;
+    width: auto;
+  }
+  .contactanos-page{
+    flex-direction: row;
+  }
+  .todo-Contacto{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactanosDirecciones{
+    flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+    width: 50%;
+  }
+ 
+  
+  #button{
+    margin-left: 32%;
+  
+  }
+  
+
+  .contactanos{
+    padding: 10px 20px; /* Set padding around the text */
+    font-size: 26px; /* Set the font size */
+  }
+  #button{
+    padding: 10px 35px; /* Set padding around the text */
+  
+  }
+  .telubihor{
+    margin-left: 10%;
+    width: 29%;
+
+  }
+  .lugardelLocal{
+    font-size: 18px;
+
+  }
+
+  }
+  
+    /* Estilos para pantallas grandes */
+  /* Styles for screens larger than 992px (e.g., desktops) */
+  @media only screen and (min-width: 1025px) {
+    .forms{
+      margin-left: 7%;
+
+    }
+    /* Adjustments for larger screens */
+    .telubihor{
+      margin-left: 10%;
+      width: 20%;
+
+    }
+.contactenostelefonos{
+  margin-left: 28%;
+
+}
+    .forms{
+      width: 39rem;
+
+    }
+    #Slogan{
+      margin-top: 27%;
+      margin-left: 20%;
+      font-size: 6rem;
+      font-weight: bold;
+      margin-bottom: auto;
+    
+    }
+    
+    #slogan2{
+      width: 28rem;
+      
+    font-size: 19px;
+    margin-left: 20%;
+  }
+
+  .lugardelLocal{
+    font-size: 18px;
+
+  }
+
+  
+  .text-container {
+      font-size: 1.8rem;
+      width: 50%;
+  
+  }
+  
+  
+  .cantidadproductosletra{
+    
+    
+    font-size: 1rem;
+  
+  }
+ 
+
+  .texto-nosotros{
+  font-size: x-large;
+  
+  
+  }
+ 
+  .formtorow{
+    flex-direction: row;
+  }
+  .contactanos-page{ 
+  flex-direction: row;
+  }
+  .todo-Contacto{
+    flex-direction: row;
+  }
+  .contactanosDirecciones{
+    flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+    width: 35%;
+    margin-left: 5%;
+  }
+  .contact-form {
+  
+    width: 55%;
+  
+  }
+  #button{
+    margin-left: 50%;
+    padding: 10px 35px; /* Set padding around the text */
+  
+  }
+  
+  
+ 
+  }
+
+  
+  /*1era parte de la pagina*/
+  /*------------------------------------------------------------------------------------------*/
+
+ 
+  
+
+ 
+
+.firstIndex-Middle{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  background-color: #002169;
+  width: 100%;
+  font-family: "Sequel Sans Head", Sans-serif;
+  color: white;
+  z-index: 3;
+  padding-bottom: 3%;
+}
+.imgslogan{
+  height: 230px;
+  margin-top: 120px;
+  margin-right: 5%;
+  width: 270px;
+}
+.contactanostop{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+  
+  /* Clientes-page */
+  /* ------------------------------------------------------- */
+  .middleIndex{
+    display: flex;
+    padding-bottom: 7%;
+    height: auto;
+    background-color: #e6e7e8;
+  }
+  .telubihor{
+    height: 640px;
+    font-family: "Roboto", Sans-serif;
+    line-height: 1.6em;
+    font-size: 19px;
+    font-weight: normal;
+    color: white;
+    z-index: 90px;
+    background-color: #00a0df;
+  }
+ .telefono{
+  margin-top: 13%;
+margin-left: 10%;
+margin-right: 10%;
+
+ }
+ 
+.horario{
+  margin-top: 13%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.ubicacion{
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.sabado{
+  margin-top: 4%;
+}
+
+.forms{
+  font-family: "Roboto", Sans-serif;
+  color: #4a4a4a;
+  margin-top: 4%;
+  font-size: 23px;
+}
+
+
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group1 input[type="email"], textarea {
+  width:100%;
+    font-weight: bolder;
+
+  margin-bottom: 10px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color:#0078B7;
+  border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+
+    outline: none;
+}
+
+
+
+
+
+#nombre{
+  width: 100%;
+  
+}
+
+#email{
+  width: 100%;
+}
+
+#telefono{
+  width: 100%;
+}
+#mensaje{
+  width: 100%;
+}
+
+
+.formMensaje, .formtelefono,.formemail{
+  margin-top: 5%;
+}
+.forms input {
+  border: none;
+  height: 30px; /* You can change this value to your preferred height */
+}
+textarea {
+  resize: none;
+  border: 1px solid white;
+
+    height: 190px;
+      width: 100%;
+ /* Set the desired height */
+}
+
+#button {
+  border: none;
+  background-color: #00a0df; /* Set the background color */
+  color:white; /* Set the text color */
+  padding: 10px 35px; /* Set padding around the text */
+  margin-left: 38%;
+  margin-top: 3%;
+  font-size: 20px; /* Set the font size */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  border-radius: 4px; /* Add rounded corners */
+}
+
+#button:hover {
+  background-color: #002169;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* map page */
+/* ------------------------------------------------------- */
+
+#map {
+  height: 400px;
+  width: 100%;
+
+}
+
+/* Contactenos page */
+/* ------------------------------------------------------- */
+.contactanos-page{ 
+  display: flex;
+  background-color: #102169;
+  height: auto;
+  padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+.contactanosDirecciones{
+  margin-left: 10%;
+  font-family: "Poppins", Sans-serif;
+
+  margin-top: 4.3%;
+
+}
+.contactenostelefonos{
+margin-top: 3%;
+font-family: "Poppins", Sans-serif;
+
+
+}
+.logo1{
+  width: 100px;
+  height: 100px;
+}
+
+
+.Visitenos{
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.7em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 4%;
+}
+
+.Telefono{
+  margin-top: 10%;
+  
+    color: white;
+    font-family:  "Sequel Sans Body";
+    font-size: 1.7em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 4%;
+}
+.nav-menu .nav-item:nth-child(4) .nav-link::after {
+  width: 100%; /* Set the initial width of the bar for the "Nosotros" link */
+}
+a[name="Contactanos"]{  color: dodgerblue;
+}
+.lugardelLocal{
+  display: block;
+  margin-top: 1%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+.allrights{
+  height: 50px;
+  background-color: #1B1B1B;
+  
+}
+
+.hoyber{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  color: white;
+  padding-top:1.2% ;
+  
+  text-align: center;
+}

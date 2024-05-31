@@ -1,0 +1,561 @@
+/*Scrollbar*/
+/*------------------------------------------------------------------------------------------*/
+html::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #102169;
+    border-radius: 16px;
+    box-shadow: inset 2px 2px 2px hsla(0, 2%, 10%, 0.25),inset -2px -2px 2px rgba(0,0,0,.25);
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+  }
+  /*------------------------------------------------------------------------------------------*/
+  
+  
+  
+  /*Body*/
+  /*------------------------------------------------------------------------------------------*/
+  body{
+      margin: 0;
+      padding: 0;
+  }
+  .wholeboyd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*------------------------------------------------------------------------------------------*/
+  
+  @media screen and (max-width: 290px) {
+    #Slogan{
+      font-size: 2.3rem;
+    }
+    .mision, .vision, .historia{
+      height: 29rem;
+      }
+      .texto,.texto1{
+        font-size: 59%;
+      
+      }
+    
+    .HMV{
+      flex-direction: column;
+    }
+    .vision,.mision{
+      margin-top: 5%;
+    }
+    .logoimgtitle{
+      font-size:6.8px ;  
+  
+    }
+    .logoimg {
+      width: 16%;
+      margin-bottom: 2%;
+  
+  
+    }
+  
+    .textologoimg{
+      font-size:5px ;  
+      margin-top: 2px;
+  
+    }
+    
+    .lamcomlogo{
+      height: 20px;
+      width:56%;
+    }
+    
+    .rectangle {
+      width: 90%;
+      height: 0.3px;
+      margin: 0.8px auto; /* Center horizontally */
+      
+    }
+    .rectangle2 {
+      width: 90%;
+      height: 1.8px;
+      margin: 0px auto; /* Center horizontally */
+  
+    }
+    
+    .firstIndex {
+    
+      height: 13rem;
+    }
+    .firstIndex-Middle{
+      font-size: 1.8rem;
+    }
+  
+    .textmargin1, .textmargin2, .textmargin3, .textmargin4{
+      display: none;
+    }
+  
+    .productos{
+      padding: 5px 10px; /* Adjust padding as needed */
+  font-size: 0.7rem ;
+  letter-spacing: 1px;
+    }
+  
+  
+  
+    
+  
+  
+    .indexbar {
+      width: 100%; /* Decrease the width of the logo image */
+      height: 2.3rem;
+  }
+  
+  .text-container {
+      width: 80%; /* Make the text container full width */
+      justify-content: center; /* Center the navigation items */
+      font-size: 8px;
+  }
+  .text-margin1, .text-margin2, .text-margin3, .text-margin4 {
+      padding: 10px 15px; /* Adjust the padding for smaller screens */
+  }
+
+  
+  .formtorow{
+  flex-direction: column;
+  width: auto;
+  }
+  .contactanos-page{
+  flex-direction: column;
+  }
+  .todo-Contacto{
+  flex-direction: column;
+  align-items: center;
+  }
+  .contactanosDirecciones{
+  flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+  width: 100%;
+  }
+  .contact-form {
+  width: 90%;
+  }
+  .contactanosDirecciones{
+  margin-left: 5%;  
+  margin-right: 5%;  
+  
+  }
+  #button{
+  margin-left: 32%;
+  
+  }
+  
+
+  .contactanos{
+    padding: 5px 15px; /* Set padding around the text */
+    font-size: 19px; /* Set the font size */
+  }
+  #button{
+    padding: 5px 15px; /* Set padding around the text */
+  
+  }
+  #Slogan{
+    margin-top: 20%;
+  }
+  }
+    
+  @media (min-width: 291px)  and (max-width: 649px) {
+   .logoimg {
+      width: 14%;
+      margin-bottom: 2%;
+      height: 1.7rem;
+
+  
+    }
+    
+  .HMV{
+    flex-direction: column;
+  }
+  .vision,.mision{
+    margin-top: 5%;
+  }
+      .logoimgtitle{
+        font-size:7.8px ;  
+    
+      }
+      
+      .textologoimg{
+        font-size:6px ;  
+        margin-top: 2px;
+    
+      }
+      
+      .lamcomlogo{
+        height: 20px;
+        width: 160px;
+
+      }
+      
+      .rectangle {
+        width: 100%;
+        height: 0.3px;
+        margin: 0.8px auto; /* Center horizontally */
+        
+      }
+      .rectangle2 {
+        width: 100%;
+        height: 1.8px;
+        margin: 0px auto; /* Center horizontally */
+    
+      }
+      
+      .firstIndex {
+      
+        height: 15rem;
+      }
+      .firstIndex-Middle{
+        font-size: 1rem;
+      }
+    
+      .textmargin1, .textmargin2, .textmargin3, .textmargin4{
+        display: none;
+        
+      }
+    
+      .productos{
+        padding: 7px 10px; /* Adjust padding as needed */
+    font-size: 0.8rem ;
+    letter-spacing: 1px;
+      }
+  
+  
+      .indexbar {
+        width: 100%; /* Decrease the width of the logo image */
+        height: 2rem;
+    }
+   
+    .text-container {
+      width: 50%;
+
+        justify-content: center; /* Center the navigation items */
+        font-size: 10px;
+    }
+    .text-margin1, .text-margin2, .text-margin3, .text-margin4 {
+        padding: 10px 15px; /* Adjust the padding for smaller screens */
+        
+    }
+  
+  
+
+  .formtorow{
+    flex-direction: column;
+    width: auto;
+  }
+  .contactanos-page{
+    flex-direction: column;
+  }
+  .todo-Contacto{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactanosDirecciones{
+    flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+    width: 100%;
+  }
+  .contact-form {
+    width: 90%;
+  }
+  .contactanosDirecciones{
+  margin-left: 5%;  
+  margin-right: 5%;  
+  
+  }
+  #button{
+    margin-left: 32%;
+  
+  }
+  
+ 
+  .contactanos{
+    padding: 10px 20px; /* Set padding around the text */
+    font-size: 26px; /* Set the font size */
+  }
+  #button{
+    padding: 10px 35px; /* Set padding around the text */
+  
+  }
+  #Slogan{
+font-size: 3.2rem;  }
+#Slogan{
+  margin-top: 20%;
+}
+    }
+  
+  
+    
+  
+  
+  
+  @media (min-width: 650px) and (max-width: 1024px) {
+      .firstIndex {
+      
+        height: 29rem;
+      }
+      .firstIndex-Middle{
+        font-size: 2rem;
+      }
+    
+  .rectangleservicios{
+   
+    width: 0.3%;
+  
+  }
+  .imgageservicios{
+    width: 1.8rem;
+    border: 1px solid black;
+  
+    height: 1.7rem;
+  
+  
+  }
+  .contactenos {
+    font-size: 2rem;
+  }
+  
+
+  .contactanos{
+    padding: 10px 20px; /* Set padding around the text */
+    font-size: 26px; /* Set the font size */
+  }
+
+  #Slogan{
+    font-size: 5rem;
+    margin-top: 17%;
+
+  }
+
+  .mision, .vision, .historia{
+    width: 15.5rem;
+    height: 29rem;
+    }
+    .texto,.texto1{
+      font-size: 59%;
+    
+    }
+  }
+  
+    /* Estilos para pantallas grandes */
+  /* Styles for screens larger than 992px (e.g., desktops) */
+  @media only screen and (min-width: 1025px) {
+    /* Adjustments for larger screens */
+   
+    #Slogan{
+      margin-top: 10%;
+    }
+ 
+    .firstIndex-Middle{
+      font-size: 3rem;
+    }
+    .firstIndex {
+      
+      height: 41rem;
+    }
+    .productos{
+      padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 2rem ;
+  letter-spacing: 1px;
+    }
+
+  
+  .cantidadproductosletra{
+    font-size: 1rem;
+  }
+  .productosletra{
+    margin-top:5%;
+    font-family: lato, sans-serif;
+    margin-bottom: 2%;
+    font-size: x-large;
+  }
+  
+  .imageC1{
+    width: 90%;
+    border-radius: 10px;
+  
+  }
+  
+  .ClaseNosotros{
+    font-size: 3.5rem;
+  
+  }
+  .texto-nosotros{
+  font-size: x-large;
+  
+  
+  }
+  
+  .contactenos {
+    font-size: 3rem;
+  
+  }
+ 
+  .conocemas{
+    padding: 15px 15px; /* Set padding around the text */
+    font-size: 20px; /* Set the font size */
+  }
+  .contactanos{
+    padding: 10px 20px; /* Set padding around the text */
+    font-size: 26px; /* Set the font size */
+  }
+  #Slogan{
+    font-size: 5rem;
+  }
+
+
+
+.mision, .vision, .historia{
+width: 27rem;
+}
+
+
+.texto,.texto1{
+  font-size: 20px;
+
+}
+
+
+  }
+
+
+
+
+  
+  /*1era parte de la pagina*/
+  /*------------------------------------------------------------------------------------------*/
+  .nav-menu .nav-item:nth-child(2) .nav-link::after {
+    width: 100%; /* Set the initial width of the bar for the "Nosotros" link */
+  }
+  
+  a[name="Nosotros"]{  color: dodgerblue;
+  }
+  
+  
+  
+  
+ .firstIndex {
+  position: relative;
+  overflow: hidden;
+  background-image: url(carrusel-nosotros-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: #fff;
+
+}
+
+.firstIndex-Middle{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  margin-top: 5%;
+  font-family: "Sequel Sans Head", Sans-serif;
+  color: white;
+}
+
+  
+.Nosotros{
+  text-align: center;
+  height: 400px;
+}
+  
+  /* Clientes-page */
+  /* ------------------------------------------------------- */
+  .middleIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 8px solid #0b547d;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 8px solid #0b547d;
+    
+  }
+  
+  .HMV{
+    text-align: center;
+    font-size: 30px;
+    height: fit-content;
+justify-content: space-between;    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: "Sequel Sans Body", Sans-serif;
+    display: flex;
+    }
+
+  .mision{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3%;
+    
+
+  background-color: #e6e7e8;
+  }
+  .vision{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #00a0df;
+    padding-bottom: 3%;
+
+  }
+  .historia{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-bottom: 3%;
+
+        background-color: #00a0df
+  }
+
+
+.HMVimg{
+  margin-top: 4%;
+
+    width: 23%;
+    height: 20%;
+  }
+  .texto{
+    font-weight: lighter;
+    line-height: 1.8rem;
+    margin-left: 9%;
+    color: white;
+    margin-right: 9%;
+
+    word-spacing:0.2rem
+  }
+  .texto1{
+
+    font-weight: lighter;
+    line-height: 1.8rem;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    word-spacing:0.2rem
+  }
+  .titulo{
+    color: #002169;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 35px;
+
+  }

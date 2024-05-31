@@ -1,0 +1,41 @@
+[
+    
+    {
+        "id": 1,
+        "name": "Lamina Galvanizada ZINTRO-ALUM CAL 32",
+        "image": "laminas/ZINTROaluM.png",
+        "price": "DESDE: $199"
+    },
+    {
+   
+      "id": 2,
+      "name": "Aceroteja Roja CAL 26 Pintro Rojo ",
+      "image": "laminas/aceroteja roja.png",
+      "price": "DESDE: $395"
+    },
+    {
+        "id": 3,
+        "name": "Aceroteja Azul",
+        "image": "laminas/aceroteja AZUL.png",
+        "price": "DESDE: $395"
+    },
+    {
+        "id": 4,
+        "name": "Aceroteja Verde",
+        "image": "laminas/aceroteja VERDE.png",
+        "price": "DESDE: $395"
+    },
+    {
+        "id": 5,
+        "name": "Lamina Galvanizada ZINTRO-ALUM R-101 CAL 28 ",
+        "image": "laminas/ZINTROaluM.png",
+        "price": "DESDE: $398"
+      },
+      {
+        "id": 6,
+        "name": "Lamina Galvanizada Pintro Rojo/Blanco R-101 CAL 26",
+        "image": "laminas/lamina rojo y Blanco.png",
+        "price": "DESDE: $398"
+      }
+
+]

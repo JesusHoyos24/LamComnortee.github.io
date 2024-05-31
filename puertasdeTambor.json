@@ -1,0 +1,27 @@
+[
+    
+    {
+      "id": 1,
+      "name": "Puerta de Tambor HDF Lisa, Color Roble, Interior",
+      "image": "FOTOS PUERTAS/Puerta-de-Tambor-HDF-Lisa-Color-Roble.jpg",
+      "price": "$769"
+    },
+    {
+      "id": 2,
+      "name": "Puerta de Tambor HDF Lisa, Color Blanco Arena, Interior",
+      "image": "FOTOS PUERTAS/Puerta-de-Tambor-HDF-Lisa-Color-Blanco-Arena.jpg",
+      "price": "$769"
+    },
+    {
+      "id": 3,
+      "name": "Puerta de Tambor HDF Lisa, Color Chocolate, Interior",
+      "image": "FOTOS PUERTAS/Puerta-de-Tambor-HDF-Lisa-Color-Chocolate.jpg",
+      "price": "$799"
+    },
+    {
+      "id": 4,
+      "name": "Puerta de Tambor HDF Lisa, Color Gris Veteado, Interior",
+      "image": "FOTOS PUERTAS/Puerta-de-Tambor-HDF-Lisa-Gris-Veteado.jpg",
+      "price": "$899"
+    }
+]

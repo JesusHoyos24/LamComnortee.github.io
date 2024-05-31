@@ -1,0 +1,781 @@
+@media screen and (max-width: 290px) {
+  .navProductos{
+    flex-wrap: wrap;
+
+  }
+ 
+  .textoServicios{
+    margin-left: 5%;
+    font-size: large;
+  }
+  .servicios1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+margin-left: 4%;
+  }
+  .servicioscompletos{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-direction: column;
+  }
+  .firstIndex {
+    
+    height: 29rem;
+  }
+  .firstIndex-Middle{
+    font-size: 1.7rem;
+    padding: 10%;
+  }
+
+  .productos{
+    padding: 5px 10px; /* Adjust padding as needed */
+font-size: 0.7rem ;
+letter-spacing: 1px;
+  }
+
+.cantidadproductosletra{
+  font-size: 0.5rem;
+
+}
+
+.productosletra{
+font-size: 0.7rem;
+text-align: center;
+}
+
+.ClaseNosotros{
+font-size: 1.5rem;
+}
+.bottom-page{
+flex-direction: column;
+text-align: center;
+
+}
+
+
+.texto-nosotros{
+font-size: large;
+}
+
+
+.soldador{
+width: 80%;
+height: 90%;
+margin-bottom: 5%;
+margin-top: 1%;
+
+}
+
+
+.rectangleservicios{
+  height: 0.2rem;
+   width: 100%;
+   margin-top: 1%;
+   margin-bottom: 1%;
+ 
+ }
+.imgageservicios{
+width: 1.2rem;
+border: 1px solid black;
+
+height: 1.3rem;
+
+
+}
+.contactenos {
+font-size: 2rem;
+}
+
+
+
+.conocemas{
+  padding: 10px 10px; /* Set padding around the text */
+  font-size: 15px; /* Set the font size */
+}
+.contactanos{
+  padding: 5px 15px; /* Set padding around the text */
+  font-size: 19px; /* Set the font size */
+}
+
+.image-container{
+  height: 150px;
+
+}
+}
+  
+@media (min-width: 291px)  and (max-width: 649px) {
+  .navProductos{
+    flex-wrap: wrap;
+
+  }
+  .textoServicios{
+    margin-left: 5%;
+    font-size: large;
+  }
+  .servicios1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+margin-left: 4%;
+  }
+  .servicioscompletos{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-direction: column;
+  }
+    .firstIndex {
+    padding-top: 5%;
+      height: 26rem;
+    }
+    .firstIndex-Middle{
+      font-size: 2rem;
+    }
+  
+    .productos{
+      padding: 15px 12px; /* Adjust padding as needed */
+  font-size: rem ;
+  letter-spacing: 1px;
+    }
+  
+  .cantidadproductosletra{
+    font-size: 0.6rem;
+  
+  }
+  
+.productosletra{
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.ClaseNosotros{
+  font-size: 2rem;
+}
+.bottom-page{
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.texto-nosotros{
+  font-size: x-large;
+  }
+  
+
+.soldador{
+  width: 80%;
+  height: 90%;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  
+}
+
+.servicioscompletos{
+  font-size: 0.9rem;
+}
+
+
+.rectangleservicios{
+ height: 0.2rem;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+.imgageservicios{
+  width: 1.5rem;
+  border: 1px solid black;
+
+
+
+}
+.contactenos {
+  font-size: 2rem;
+}
+
+
+
+.conocemas{
+  padding: 15px 15px; /* Set padding around the text */
+  font-size: 20px; /* Set the font size */
+}
+.contactanos{
+  padding: 10px 20px; /* Set padding around the text */
+  font-size: 26px; /* Set the font size */
+  
+}
+
+.image-container{
+  height: 220px;
+
+}
+  }
+
+@media (min-width: 650px) and (max-width: 1024px) {
+  
+  .textoServicios{
+    margin-left: 2%;
+  }
+    .firstIndex {
+    
+      height: 26rem;
+    }
+    .firstIndex-Middle{
+      font-size: 2rem;
+    }
+  
+    .productos{
+      padding: 7px 10px; /* Adjust padding as needed */
+  font-size: 0.8rem ;
+  letter-spacing: 1px;
+    }
+  
+  .cantidadproductosletra{
+    font-size: 0.7rem;
+  
+  }
+  
+.productosletra{
+  font-size: 0.96rem;
+  text-align: center;
+}
+
+.ClaseNosotros{
+  font-size: 2rem;
+}
+.bottom-page{
+  flex-direction: column;
+  text-align: center;
+
+}
+
+
+.texto-nosotros{
+  font-size: x-large;
+  
+  
+  }
+  
+
+.soldador{
+  width: 80%;
+  height: 90%;
+  margin-bottom: 5%;
+  margin-top: 1%;
+  
+}
+
+
+.servicioscompletos{
+  font-size: 0.8rem;
+}
+
+.servicios1{
+  flex-direction: column;
+  text-align: center;
+}
+.rectangleservicios{
+ 
+  width: 0.3%;
+
+}
+.imgageservicios{
+  width: 1.8rem;
+  border: 1px solid black;
+
+  height: 1.7rem;
+
+
+}
+.contactenos {
+  font-size: 2rem;
+}
+
+
+.image-container{
+  height: 350px;
+
+}
+}
+
+  /* Estilos para pantallas grandes */
+/* Styles for screens larger than 992px (e.g., desktops) */
+@media only screen and (min-width: 1025px) {
+  /* Adjustments for larger screens */
+ 
+  .firstIndex-Middle{
+    font-size: 3rem;
+  }
+  .firstIndex {
+    
+    height: 37rem
+  }
+  .productos{
+    padding: 10px 20px; /* Adjust padding as needed */
+font-size: 2rem ;
+letter-spacing: 1px;
+  }
+ 
+
+
+.cantidadproductosletra{
+  
+  
+  font-size: 1rem;
+
+}
+.productosletra{
+  margin-top:5%;
+  font-family: lato, sans-serif;
+  margin-bottom: 2%;
+  font-size: x-large;
+}
+
+
+
+
+.imageC1{
+  width: 90%;
+  border-radius: 10px;
+
+}
+
+.ClaseNosotros{
+  font-size: 3.5rem;
+
+}
+.texto-nosotros{
+font-size: x-large;
+
+
+}
+
+
+.bottom-page{
+
+  flex-direction: row;
+  
+
+}
+
+
+.soldador{
+  width: 70%;
+  height: 80%;
+  
+
+
+}
+
+
+.servicioscompletos{
+  font-size: 1.8rem;
+  margin-left: 2%;
+}
+
+.rectangleservicios{
+ 
+  width: 0.3%;
+}
+
+
+.imgageservicios{
+  width: 8%;
+  border: 2px solid black;
+
+  height: 2rem;
+
+
+}
+.contactenos {
+  font-size: 3rem;
+}
+
+
+
+.conocemas{
+  padding: 15px 15px; /* Set padding around the text */
+  font-size: 20px; /* Set the font size */
+}
+.contactanos{
+  padding: 10px 20px; /* Set padding around the text */
+  font-size: 26px; /* Set the font size */
+}
+.image-container{
+  height: 450px;
+
+}
+.servicios1{
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+}
+.textoServicios{
+  margin-left: 2%;
+}
+}
+
+
+
+
+
+
+/*Scrollbar*/
+/*------------------------------------------------------------------------------------------*/
+.nav-menu .nav-item:nth-child(1) .nav-link::after {
+  width: 100%; 
+}
+a[name="Inicio"]{  color: dodgerblue;
+}
+html::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #102169;
+  
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 2px hsla(0, 2%, 10%, 0.25),inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+html::-webkit-scrollbar-track {
+  background-color:white; /* Transparent gray color */
+}
+/*------------------------------------------------------------------------------------------*/
+
+
+#image, #image2{
+  height: 100%;
+
+}
+/*Body*/
+/*------------------------------------------------------------------------------------------*/
+body{
+    margin: 0;
+    
+    padding: 0;
+}
+.wholeboyd{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*------------------------------------------------------------------------------------------*/
+
+
+/*1era parte de la pagina*/
+/*------------------------------------------------------------------------------------------*/
+.firstIndex {
+  background-image: url(prueba.jpg);
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: fit-content;
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  background-blend-mode: multiply;
+}
+
+
+.firstIndex-Middle{
+  align-items: center;
+
+  text-align: center;
+  font-weight: bold;
+  font-family: "Sequel Sans Head", Sans-serif;
+  color: white;
+}
+
+
+
+
+
+  .contactanos{
+    border: 3px solid white;
+    margin-top: 5%;
+    background-color: transparent; /* Set the background color */
+    color: White; /* Set the text color */
+   
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    border-radius: 4px; /* Add rounded corners */
+    }
+    
+    
+    .contactanos:hover {
+      background-color: white;
+      color: #3449eb;
+    }
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+  /*2nda parte de la pagina*/
+/*------------------------------------------------------------------------------------------*/
+.middleIndex{
+    height: fit-content;
+    width: 100%;
+  }
+
+
+.productos{
+  margin-top: 2%;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-color: #102169;
+  font-family: Lato,sans-serif;
+  font-weight: bolder;
+
+
+}
+
+
+.navProductos{
+  display: flex;
+  padding-top: 1%;
+  justify-content: center;
+  flex-direction: row;
+  font-family: Lato,sans-serif;
+  font-weight: BOLD;
+  color: #777;
+  margin-bottom: 1%;
+    
+}
+
+
+.imageC1{
+  height: 70%;
+  transition: transform .2s; /* Animation */
+
+
+}
+
+.imageC1:hover{
+ 
+  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+#Slogan{
+  margin-top: 15%;
+}
+
+.columna1, .columna2, .columna3, .columna4{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 47%;
+  height: max-content;
+
+  border: white 3px solid;
+}
+.productosletra{
+  margin-top:5%;
+  font-family: lato, sans-serif;
+  margin-bottom: 2%;
+}
+
+.cantidadproductosletra{
+  
+  
+  margin-bottom: 10%;
+  color: #1a0dab;
+
+}
+
+
+/* ------------------------------------------------------- */
+
+
+
+
+.conocemas {
+  border: 0.2rem solid white;
+  background-color: transparent; /* Set the background color */
+  color: White; /* Set the text color */
+ 
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  border-radius: 4px; /* Add rounded corners */
+  }
+
+
+.conocemas1{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  }
+
+  .conocemas:hover {
+    background-color: white;
+    color: #3449eb;
+  }
+
+
+/* Bottom page */
+/* ------------------------------------------------------- */
+
+.bottom-page{
+  display: flex;
+  width: 100%;
+  height: auto;
+  
+
+}
+
+
+
+.NosotrosText{
+  background-color: #102169;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ClaseNosotros{
+  color: white;
+  margin-top: 5%;
+    margin-right: 15%;
+  margin-bottom: 3%;
+  font-family: Lato,sans-serif;
+font-weight: bold;
+  margin-left: 15%;
+}
+
+.texto-nosotros{
+  margin-left: 15%;
+  margin-bottom: 3%;
+  margin-right: 15%;
+  color: white;
+  word-spacing: 2px;
+  font-family: Lato,sans-serif;
+
+
+}
+
+
+.TabladePesos{
+  background-color: #102169;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+/* ------------------------------------------------------- */
+
+
+/* Clientes-page */
+/* ------------------------------------------------------- */
+
+.servicios{
+  display: flex;
+ width: 100%;
+padding-top: 1%;
+padding-bottom: 1%;
+
+}
+
+
+
+.servicioscompletos{
+  display: flex;
+  width: 100%;
+  justify-content: center; /* Center horizontally */
+}
+
+
+
+
+
+.rectangleservicios{
+    background-color: #102169; /* Set the background color */
+}
+
+
+.imgageservicios{
+  border-radius: 20px;
+
+  margin-left: 1%;
+
+}
+
+
+
+
+/* ------------------------------------------------------- */
+
+.image-container {
+
+  position: relative;
+  width:100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+ img{
+  width: 100%;
+}
+
+
+
+
+
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  color:white; /* Set the color of the button */
+  width: 20px; /* Adjust the width to your preference */
+  height: 20px; /* Adjust the height to your preference */
+}
+
+.arrow-button::before {
+  content: "❯";
+}
+
+.arrow-button1 {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  color:white; /* Set the color of the button */
+  width: 20px; /* Adjust the width to your preference */
+  height: 20px; /* Adjust the height to your preference */
+}
+
+.arrow-button1::before {
+  content: "❮";
+}
+
+#prevButton {
+  left: 10px;
+
+}
+
+#nextButton {
+  right: 10px;
+}
+
+
+
+
+

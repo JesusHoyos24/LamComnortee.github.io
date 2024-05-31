@@ -1,0 +1,742 @@
+/*Scrollbar*/
+/*------------------------------------------------------------------------------------------*/
+html::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #102169;
+    border-radius: 16px;
+    box-shadow: inset 2px 2px 2px hsla(0, 2%, 10%, 0.25),inset -2px -2px 2px rgba(0,0,0,.25);
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+  }
+  /*------------------------------------------------------------------------------------------*/
+  
+  
+  
+  /*Body*/
+  /*------------------------------------------------------------------------------------------*/
+  body{
+      margin: 0;
+      padding: 0;
+      background-color: #f8f5f5;
+
+  }
+  .wholeboyd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*-----
+  /*------------------------------------------------------------------------------------------*/
+  
+  @media screen and (max-width: 290px) {
+    .columna5{
+      display: none;
+    }
+    .dropbtn{
+      font-size: 17px;
+
+    }
+    .containerproductos{
+      height: auto;
+      padding-bottom: 5%;
+    width: 100%;
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-top: 3%; 
+    
+    
+    }
+     
+  .imageC1{
+    width: 90%; /* Adjust the size of your circle */
+
+  
+  }
+    .navProductos{
+      flex-wrap: wrap;
+justify-content:center;   
+margin-left: 5%;
+margin-right: 5%;
+padding-top: 10%;
+
+   flex-direction: row;
+
+    }
+    .productosletra{
+      font-size:90%;
+      text-align: center;
+white-space: wrap;
+    }
+    .cantidadproductosletra{
+      font-size: 0.8rem;
+
+    }
+    .LowerFrase{
+      font-size: 0.9rem;
+      text-align: center;
+
+    }
+    .middleIndex{
+      padding-top: 15%;
+
+    }
+    .ProductosFrase{
+      text-align: center;
+      font-size: 2.01rem;
+      padding-top:7% ;
+
+
+    }
+    .container2{
+      display: none;
+    }
+
+    
+    .firstIndex {
+    
+      height: 29rem;
+    }
+    .firstIndex-Middle{
+      font-size: 1.8rem;
+    }
+  
+   
+  }
+    
+  @media (min-width: 291px)  and (max-width: 649px) {
+    .columna5 {
+      display: none;
+     
+      
+    }
+    .dropbtn{
+      font-size: 20px;
+
+    }
+    .containerproductos{
+      height: auto;
+      padding-bottom: 5%;
+    width: 100%;
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-top: 3%; 
+    
+    
+    }
+     
+  .imageC1{
+    width: 90%; /* Adjust the size of your circle */
+
+  
+  }
+    .navProductos{
+      flex-wrap: wrap;
+justify-content:center;   
+margin-left: 5%;
+margin-right: 5%;
+padding-top: 10%;
+   flex-direction: row;
+
+    }
+    .productosletra{
+      font-size:90%;
+      text-align: center;
+white-space: wrap;
+    }
+    .cantidadproductosletra{
+      font-size: 0.8rem;
+
+    }
+    .LowerFrase{
+      font-size: 0.9rem;
+      text-align: center;
+
+    }
+    .middleIndex{
+      padding-top: 13%;
+
+    }
+    .ProductosFrase{
+      text-align: center;
+      font-size: 2.01rem;
+        padding-top:7% ;
+    }
+    .container2{
+      display: none;
+    }
+   
+
+      
+     
+      .firstIndex {
+      
+        height: 29rem;
+      }
+      .firstIndex-Middle{
+        font-size: 2rem;
+      }
+    
+   
+   
+    }
+  
+  
+    
+  
+  
+  
+  @media (min-width: 650px) and (max-width: 1024px) {
+    .columna5 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+      height:max-content ;
+      width: 50%;
+      
+    }
+    .dropbtn{
+      font-size: 20px;
+
+    }
+    .container2{
+
+      margin-left: 4%;}
+    .containerproductos{
+      height: auto;
+      padding-bottom: 5%;
+    width: 100%;
+      margin-right: 4%;
+      margin-left: 1%;
+      max-width: 90vw;
+      margin-top: 3%; 
+    
+    
+    }
+     .navProductos{
+      padding-top: 4%;
+
+     }
+  .imageC1{
+    width: 70%; /* Adjust the size of your circle */
+
+  
+  }
+    .cantidadproductosletra{
+      font-size: 15px;
+      text-align: center;
+
+    }
+    .productosletra{
+      font-size: 1.2rem;
+      text-align: center;
+
+    }
+    .LowerFrase{
+      font-size: 19.01px;
+      text-align: center;
+
+    }
+    .middleIndex{
+      padding-top: 6%;
+
+    }
+    .ProductosFrase{
+      font-size: 4.01rem;
+      text-align: center;
+        padding-top: 5%;
+
+    }
+ 
+      
+      .firstIndex {
+      
+        height: 29rem;
+      }
+      .firstIndex-Middle{
+        font-size: 2rem;
+      }
+    
+    
+    
+      .productos{
+        padding: 7px 10px; /* Adjust padding as needed */
+    font-size: 0.8rem ;
+    letter-spacing: 1px;
+      }
+    
+      
+  
+
+  }
+  
+    /* Estilos para pantallas grandes */
+  /* Styles for screens larger than 992px (e.g., desktops) */
+  @media only screen and (min-width: 1025px) {
+    .columna5 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+      height:max-content ;
+      width: 50%;
+      
+    }
+    .dropbtn{
+      font-size: 20px;
+
+    }
+    .navProductos{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .container2{
+
+      margin-left: 10%;}
+
+    .containerproductos{
+      height: auto;
+      padding-bottom: 5%;
+    width: 100%;
+      margin-right: 10%;
+      margin-left: 1%;
+      max-width: 90vw;
+      margin-top: 3%; 
+    
+    
+    }
+    .cantidadproductosletra{
+      font-size: 18px;
+
+    }
+    .productosletra{
+      font-size: 1.2rem;
+
+    }
+    .LowerFrase{
+      font-size: 19.01px;
+
+    }
+    .middleIndex{
+      padding-top: 6%;
+
+    }
+    .ProductosFrase{
+      font-size: 5.01rem;
+      padding-top: 2%;
+
+    }
+    /* Adjustments for larger screens */
+  
+    .firstIndex-Middle{
+      font-size: 3rem;
+    }
+    .firstIndex {
+      
+      height: 41rem;
+    }
+    .productos{
+      padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 2rem ;
+  letter-spacing: 1px;
+    }
+ 
+  .text-container {
+      font-size: 1.8rem;
+      width: 50%;
+  
+  }
+  
+  
+  .cantidadproductosletra{
+    
+    
+    font-size: 1rem;
+  
+  }
+  .productosletra{
+    margin-top:5%;
+    font-family: lato, sans-serif;
+    margin-bottom: 2%;
+    font-size: x-large;
+  }
+  
+  
+  
+  
+  .imageC1{
+    width: 60%; /* Adjust the size of your circle */
+
+  
+  }
+  
+
+  }
+
+  
+
+
+
+
+  
+
+  
+  /* Clientes-page */
+  /* ------------------------------------------------------- */
+  .middleIndex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccEBFF;
+    padding-bottom: 2%;
+
+    height: auto;
+  }
+
+
+.ProductosFrase{
+  font-family: "Guardian-EgypTT","Charter","Charter Bitstream","Cambria","Noto Serif Light","Droid Serif","Georgia","serif";
+  font-weight: 300;
+  line-height: 1.05;
+  
+  letter-spacing: 0px;
+}
+
+.LowerFrase{
+    font-family: "Graphik Webfont","-apple-system","Helvetica Neue","Droid Sans","Arial","sans-serif";
+    font-weight: 500;
+    margin-top: 1%;
+    line-height: 1.4;
+    text-align: center;
+    width: 80%;
+    letter-spacing: .09505px;
+}
+.navProductos{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  font-family: Lato,sans-serif;
+  font-weight: BOLD;
+
+  
+}
+
+.navProductos a{  text-decoration: none; /* Remove underline */
+  color: #777; /* Default link color */}
+.imageC1{
+  border-radius: 50%; /* Make it a circle */
+  overflow: hidden; /* Hide overflow to keep it circular */
+
+ 
+
+  margin: 0 auto;
+  transition: transform .2s; /* Animation */
+
+
+}
+.imageC1:hover{
+ 
+  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+
+#Slogan{
+  margin-top: 15%;
+}
+
+.columna1 ,.columna2 ,.columna3 ,.columna4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height:max-content ;
+  width: 50%;
+  
+}
+
+.ProductosPage{
+  width: 100%;
+}
+.productosletra{
+  margin-top: 20px;
+  margin-bottom: 2%;
+  color: #1a0dab;
+  font-weight: 400;
+  font-family: Lato,sans-serif;
+}
+.productosletra1{
+  margin-top: 5px;
+  font-family: lato, sans-serif;
+  font-size: 15.5px;
+  height: 8%;
+  max-height: max-content;
+  margin-bottom: 2%;
+}
+
+
+.cantidadproductosletra{
+  
+  margin-bottom: 10%;
+  font-family: "Graphik Webfont","-apple-system","Helvetica Neue","Droid Sans","Arial","sans-serif";
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: .08px;
+  color: gray;
+}
+
+
+
+
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    
+  }
+  
+
+nav{
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    
+    
+    
+  }
+
+
+/* todos los productos de la pagina */
+/* ------------------------------------------------------- */
+.producto{
+  max-width: 21.5%; /* Set a maximum width for the text container */
+  text-decoration: none; /* Remove underline */
+
+}
+
+
+
+
+.listProduct{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  
+}
+.listProduct .item{
+  height: calc(100%);
+background-color: white;
+}
+.productbox{
+
+  border-radius: 5px;
+  background-color: white;
+  padding-bottom: 5%;
+  text-align: left;
+  transition: 0.2s;
+}
+.item:hover {
+  box-shadow: 1px 2px 10px rgba(48, 47, 47, 0.5); /* Increased values for more noticeable shadow */
+}
+.listProduct .item h2{
+  
+  font-weight: 500;
+  font-size: large;
+  margin-bottom:2px;
+}
+.listProduct a {
+
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
+}
+.listProduct .item .price{
+  margin-top: 30PX;
+  font-family: Proxima Nova,-apple-system,Roboto,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FF003B;
+
+}
+.listProduct .item h2:hover{
+  color: #0078B7;
+}
+
+.listProduct .item .price, h2{
+  
+ margin-left: 5%;
+ margin-right: 6%;
+
+}
+
+.listProduct .item img{
+  margin-top: 1%;
+  height: 70%;
+}
+
+/* // ipad */
+@media only screen and (max-width: 992px) {
+  .listProduct{
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .detail{
+      grid-template-columns:  40% 1fr;
+  }
+}
+
+
+
+
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .listProduct{
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .detail{
+      text-align: center;
+      grid-template-columns: 1fr;
+  }
+  .detail .image img{
+      width: unset;
+      height: 40vh;
+  } 
+  .detail .name{
+      font-size: x-large;
+      margin: 0;
+
+  }
+  .detail .buttons button{
+      font-size: small;
+  }
+  .detail .buttons{
+      justify-content: center;
+  }
+}
+
+
+
+.bigcontainer{
+  display: flex;
+  flex-direction: row;
+}
+  
+.container2{
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+width: 18%; /* Adjust the width as needed */
+background-color: white;
+height: fit-content;
+margin-top: 3%; 
+border: 0;
+border-radius: 4px;
+
+}
+.categorias{
+  padding: 15px 15px;
+    font-size: 1.4rem;
+    position: relative;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #373d3f;
+    line-height: 1.1;
+}
+
+ h3 {
+  
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 17px;
+  margin: 6%;
+
+  color: #373d3f;
+}
+
+
+li a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  
+}
+.nav-menu .nav-item:nth-child(3) .nav-link::after {
+  width: 100%; /* Set the initial width of the bar for the "Nosotros" link */
+}
+a[name="Productos"]{  color: dodgerblue;
+}
+.container2 a:hover{
+  text-decoration:underline;
+
+}
+ul{
+  
+  list-style-type: none;
+  margin: 0px; /* Remove any default margin */
+}
+
+
+li{
+  border: solid 2px white;
+}
+.dropdown{
+  display: flex;
+  flex-direction: column;
+  height: 9rem;
+
+}
+.wholeDropdown{
+  display: flex;
+justify-content: center;}
+/* Dropdown button */
+.dropbtn {
+  background-color: #fff; 
+  
+  color: #333;
+  padding: 15px;
+  font-family: sans-serif;
+
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  margin-top: 0.5%;
+  font-size: 20px;
+  background-color: #fff;
+  height: fit-content;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  
+  display: block;
+}
+
+
+
+
+/* Show the dropdown menu when the dropdown button is clicked */
+.dropdown.active .dropdown-content {
+  display: block;
+  
+}

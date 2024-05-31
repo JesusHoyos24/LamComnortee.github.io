@@ -1,0 +1,1345 @@
+/*Scrollbar*/
+/*------------------------------------------------------------------------------------------*/
+html::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #102169;
+    border-radius: 16px;
+    box-shadow: inset 2px 2px 2px hsla(0, 2%, 10%, 0.25),inset -2px -2px 2px rgba(0,0,0,.25);
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+  }
+  /*------------------------------------------------------------------------------------------*/
+  
+  
+  
+  /*Body*/
+  /*------------------------------------------------------------------------------------------*/
+  body{
+      margin: 0;
+      padding: 0;
+      background-color: #f8f5f5;
+
+  }
+  
+  /*------------------------------------------------------------------------------------------*/
+  
+  @media screen and (max-width: 290px) {
+
+    .logoimgtitle{
+      font-size:6.8px ;  
+  
+    }
+    .logoimg {
+      width: 16%;
+      margin-bottom: 2%;
+  
+  
+    }
+  
+    .textologoimg{
+      font-size:5px ;  
+      margin-top: 2px;
+  
+    }
+    
+    .lamcomlogo{
+      height: 20px;
+      width:56%;
+    }
+    
+    .rectangle {
+      width: 90%;
+      height: 0.3px;
+      margin: 0.8px auto; /* Center horizontally */
+      
+    }
+    .rectangle2 {
+      width: 90%;
+      height: 1.8px;
+      margin: 0px auto; /* Center horizontally */
+  
+    }
+    
+    .firstIndex {
+    
+      height: 29rem;
+    }
+    .firstIndex-Middle{
+      font-size: 1.8rem;
+    }
+  
+    .textmargin1, .textmargin2, .textmargin3, .textmargin4{
+      display: none;
+    }
+  
+    .productos{
+      padding: 5px 10px; /* Adjust padding as needed */
+  font-size: 0.7rem ;
+  letter-spacing: 1px;
+    }
+  
+  
+  
+    
+  
+  
+    .indexbar {
+      width: 100%; /* Decrease the width of the logo image */
+      height: 2.3rem;
+  }
+  
+  .text-container {
+      width: 80%; /* Make the text container full width */
+      justify-content: center; /* Center the navigation items */
+      font-size: 8px;
+  }
+  .text-margin1, .text-margin2, .text-margin3, .text-margin4 {
+      padding: 10px 15px; /* Adjust the padding for smaller screens */
+  }
+
+  
+  .formtorow{
+  flex-direction: column;
+  width: auto;
+  }
+  .contactanos-page{
+  flex-direction: column;
+  }
+  .todo-Contacto{
+  flex-direction: column;
+  align-items: center;
+  }
+  .contactanosDirecciones{
+  flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+  width: 100%;
+  }
+  .contact-form {
+  width: 90%;
+  }
+  .contactanosDirecciones{
+  margin-left: 5%;  
+  margin-right: 5%;  
+  
+  }
+  #button{
+  margin-left: 32%;
+  
+  }
+  
+
+  .contactanos{
+    padding: 5px 15px; /* Set padding around the text */
+    font-size: 19px; /* Set the font size */
+  }
+  #button{
+    padding: 5px 15px; /* Set padding around the text */
+  
+  }
+  }
+    
+  @media (min-width: 291px)  and (max-width: 649px) {
+   .logoimg {
+      width: 14%;
+      margin-bottom: 2%;
+  
+  
+    }
+  
+      .logoimgtitle{
+        font-size:7.8px ;  
+    
+      }
+      
+      .textologoimg{
+        font-size:6px ;  
+        margin-top: 2px;
+    
+      }
+      
+      .lamcomlogo{
+        height: 20px;
+        width: 160px;
+      }
+      
+      .rectangle {
+        width: 100%;
+        height: 0.3px;
+        margin: 0.8px auto; /* Center horizontally */
+        
+      }
+      .rectangle2 {
+        width: 100%;
+        height: 1.8px;
+        margin: 0px auto; /* Center horizontally */
+    
+      }
+      
+      .firstIndex {
+      
+        height: 29rem;
+      }
+      .firstIndex-Middle{
+        font-size: 2rem;
+      }
+    
+      .textmargin1, .textmargin2, .textmargin3, .textmargin4{
+        display: none;
+      }
+    
+      .productos{
+        padding: 7px 10px; /* Adjust padding as needed */
+    font-size: 0.8rem ;
+    letter-spacing: 1px;
+      }
+  
+  
+      .indexbar {
+        width: 100%; /* Decrease the width of the logo image */
+        height: 2rem;
+    }
+   
+    .text-container {
+      width: 50%;
+        justify-content: center; /* Center the navigation items */
+        font-size: 10px;
+    }
+    .text-margin1, .text-margin2, .text-margin3, .text-margin4 {
+        padding: 10px 15px; /* Adjust the padding for smaller screens */
+    }
+  
+  
+
+  .formtorow{
+    flex-direction: column;
+    width: auto;
+  }
+  .contactanos-page{
+    flex-direction: column;
+  }
+  .todo-Contacto{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactanosDirecciones{
+    flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+    width: 100%;
+  }
+  .contact-form {
+    width: 90%;
+  }
+  .contactanosDirecciones{
+  margin-left: 5%;  
+  margin-right: 5%;  
+  
+  }
+  #button{
+    margin-left: 32%;
+  
+  }
+  
+ 
+  .contactanos{
+    padding: 10px 20px; /* Set padding around the text */
+    font-size: 26px; /* Set the font size */
+  }
+  #button{
+    padding: 10px 35px; /* Set padding around the text */
+  
+  }
+    }
+  
+  
+    
+  
+  
+  
+  @media (min-width: 650px) and (max-width: 1024px) {
+    .logoimg {
+      width: 14%;
+      margin-bottom: 2%;
+  
+  
+    }
+  
+  .logoimgtitle{
+        font-size:10.8px ;  
+    
+      }
+      
+      .textologoimg{
+        font-size:8px ;  
+        margin-top: 2px;
+    
+      }
+      
+      .lamcomlogo{
+        height: 100%;
+        width: 20rem;
+      }
+      
+      .rectangle {
+        width: 100%;
+        height: 0.3px;
+        margin: 1px auto; /* Center horizontally */
+        
+      }
+      .rectangle2 {
+        width: 100%;
+        height: 1.8px;
+        margin: 0px auto; /* Center horizontally */
+    
+      }
+      
+      .firstIndex {
+      
+        height: 29rem;
+      }
+      .firstIndex-Middle{
+        font-size: 2rem;
+      }
+    
+      .textmargin1, .textmargin2, .textmargin3, .textmargin4{
+        display: none;
+      }
+    
+      .productos{
+        padding: 7px 10px; /* Adjust padding as needed */
+    font-size: 0.8rem ;
+    letter-spacing: 1px;
+      }
+    
+      
+  
+  
+      .indexbar {
+        width: 100%; /* Decrease the width of the logo image */
+        height: 3rem;
+    }
+   
+    .text-container {
+      width: 50%;
+        justify-content: center; /* Center the navigation items */
+        font-size: 1rem;
+    }
+    .text-margin1, .text-margin2, .text-margin3, .text-margin4 {
+        padding: 10px 15px; /* Adjust the padding for smaller screens */
+    }
+  
+  
+ 
+  .rectangleservicios{
+   
+    width: 0.3%;
+  
+  }
+  .imgageservicios{
+    width: 1.8rem;
+    border: 1px solid black;
+  
+    height: 1.7rem;
+  
+  
+  }
+  .contactenos {
+    font-size: 2rem;
+  }
+  
+  .formtorow{
+    flex-direction: column;
+    width: auto;
+  }
+  .contactanos-page{
+    flex-direction: column;
+  }
+  .todo-Contacto{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactanosDirecciones{
+    flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+    width: 100%;
+  }
+  .contact-form {
+    width: 90%;
+  }
+  .contactanosDirecciones{
+  margin-left: 5%;  
+  margin-right: 5%;  
+  
+  }
+  #button{
+    margin-left: 32%;
+  
+  }
+  
+
+  .contactanos{
+    padding: 10px 20px; /* Set padding around the text */
+    font-size: 26px; /* Set the font size */
+  }
+  #button{
+    padding: 10px 35px; /* Set padding around the text */
+  
+  }
+  }
+  
+    /* Estilos para pantallas grandes */
+  /* Styles for screens larger than 992px (e.g., desktops) */
+  @media only screen and (min-width: 1025px) {
+    /* Adjustments for larger screens */
+    .logoimg {
+      width: 14%;
+      margin-bottom: 2%;
+  
+  
+    }
+  
+    .logoimgtitle{
+      font-size:19px ;  
+    }
+    .firstIndex-Middle{
+      font-size: 3rem;
+    }
+    .firstIndex {
+      
+      height: 41rem;
+    }
+    .productos{
+      padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 2rem ;
+  letter-spacing: 1px;
+    }
+    .rectangle {
+      width: 280px; /* You can adjust the width to your preference */
+      height: 1px; /* You can adjust the height to your preference */
+      background-color: #102169; /* Set the background color */
+      margin: 1px auto; /* Center horizontally */
+      display: flex;
+      justify-content: center;
+      align-items: center; /* Center vertically */
+  }
+  .rectangle2 {
+      width: 278px; /* You can adjust the width to your preference */
+      height: 1px; /* You can adjust the height to your preference */
+      background-color: #102169; /* Set the background color */
+      border: 2px solid #102169; /* Set the border */
+      margin: 0 auto; /* Center horizontally */
+      display: flex;
+      justify-content: center;
+      align-items: center; /* Center vertically */
+  }
+  
+  
+  .textologoimg{
+    color: #102169;
+    text-align: center;
+    margin-bottom:1px;
+    font-size: 65%;
+    letter-spacing: 1px;
+  
+  }
+  
+  .indexbar{
+    width: 100%;
+  
+  }
+  .text-container {
+      font-size: 1.8rem;
+      width: 50%;
+  
+  }
+  
+  
+  .cantidadproductosletra{
+    
+    
+    font-size: 1rem;
+  
+  }
+  .productosletra{
+    margin-top:5%;
+    font-family: lato, sans-serif;
+    margin-bottom: 2%;
+    font-size: x-large;
+  }
+  
+  
+  
+  
+  .imageC1{
+    width: 90%;
+    border-radius: 10px;
+  
+  }
+  
+  .ClaseNosotros{
+    font-size: 3.5rem;
+  
+  }
+  .texto-nosotros{
+  font-size: x-large;
+  
+  
+  }
+  
+  .contactenos {
+    font-size: 3rem;
+  
+  }
+  .formtorow{
+    flex-direction: row;
+  }
+  .contactanos-page{ 
+  flex-direction: row;
+  }
+  .todo-Contacto{
+    flex-direction: row;
+  }
+  .contactanosDirecciones{
+    flex-direction: column;
+  
+  }
+  .contactanosDirecciones{
+    width: 35%;
+    margin-left: 5%;
+  }
+  .contact-form {
+  
+    width: 55%;
+  
+  }
+  #button{
+    margin-left: 50%;
+    padding: 10px 35px; /* Set padding around the text */
+  
+  }
+  
+  .conocemas{
+    padding: 15px 15px; /* Set padding around the text */
+    font-size: 20px; /* Set the font size */
+  }
+  .contactanos{
+    padding: 10px 20px; /* Set padding around the text */
+    font-size: 26px; /* Set the font size */
+  }
+  }
+
+  
+  /*1era parte de la pagina*/
+  /*------------------------------------------------------------------------------------------*/
+
+ 
+  
+  #Slogan{
+    margin-top: 10%;
+  }
+  .logoimgtitle{
+    color: #102169;
+    text-align: center;
+    margin-bottom:1px;
+    font-size:120% ;  
+    letter-spacing: 1px;
+    font-family:impact;
+  }
+  
+  
+  .textologoimg{
+    color: #102169;
+    text-align: center;
+    margin-bottom:1px;
+      font-size: 65%;
+    letter-spacing: 1px;
+  
+  }
+  
+  .lamcomlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 5%;
+  }
+  
+  .rectangle {
+      width: 280px; /* You can adjust the width to your preference */
+      height: 1px; /* You can adjust the height to your preference */
+      background-color: #102169; /* Set the background color */
+      margin: 0 auto; /* Center horizontally */
+      display: flex;
+      justify-content: center;
+      align-items: center; /* Center vertically */
+      margin-bottom:0.8px
+  
+  }
+  .rectangle2 {
+      width: 278px; /* You can adjust the width to your preference */
+      height: 1px; /* You can adjust the height to your preference */
+      background-color: #102169; /* Set the background color */
+      border: 2px solid #102169; /* Set the border */
+      margin: 0 auto; /* Center horizontally */
+      display: flex;
+      justify-content: center;
+      align-items: center; /* Center vertically */
+  }
+  
+  .logo{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  .logoimg {
+      width: 13%;
+      padding-right: 3%;
+      margin-bottom: 2%;
+  
+  
+    }
+  
+    .text-container {
+      width: 33%;
+      justify-content: space-around;
+      color: white;
+      font-size: 140%;
+      font-family: "Sequel Sans Body", Sans-serif;
+      font-weight: bold;
+      display: flex;
+      margin-right: 10%;
+      flex-direction: row;
+  
+    }
+  
+
+  
+  .textmargin1{
+    margin-right: 10%;
+    color: #102169;
+    text-decoration: none; /* Remove underline */
+  }
+  .textmargin1:hover {
+    background-color: transparent;
+    color:#0078B7;
+  }
+  
+  .textmargin1:hover .bar {
+    transform: scaleX(1);
+  }
+  .textmargin3{
+    margin-right: 10%;
+    color: #102169;
+    text-decoration: none; /* Remove underline */
+  }
+
+  .textmargin2{
+    margin-right: 10%;
+    color: #102169;
+    text-decoration: none; /* Remove underline */
+  }
+  .textmargin2:hover {
+    background-color: transparent;
+    color:#0078B7;
+  }
+  
+  .textmargin2:hover .bar {
+    transform: scaleX(1.7);
+  }
+  .textmargin4{
+    margin-right: 10%;
+    color: #102169;
+    text-decoration: none; /* Remove underline */
+  }
+  .textmargin4:hover {
+    background-color: transparent;
+    color:#0078B7;
+  }
+  
+  .textmargin4:hover .bar {
+    transform: scaleX(2.37);
+  }
+  
+  .bar {
+    padding: 0.1rem 10px;
+    background-color: #0078B7;
+    width: 2.4rem;
+    background-color: #3498db; /* Adjust the color as needed */
+    position: absolute;
+    transform-origin: bottom left;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  .bar1 {
+    padding: 0.1rem 10px;
+    background-color: #0078B7;
+    width: 5.8rem;
+    background-color: #3498db; /* Adjust the color as needed */
+    position: absolute;
+    transform-origin: bottom left;
+  }
+  
+  
+  
+    .text-container {
+      width: 33%;
+      justify-content: space-around;
+      color: white;
+      font-size: 140%;
+      font-family: "Sequel Sans Body", Sans-serif;
+      font-weight: bold;
+      display: flex;
+      margin-right: 10%;
+      flex-direction: row;
+  
+    }
+  
+
+
+ .indexbar{
+  padding-top: 1%;
+  box-shadow: 1px 2px 4px rgba(48, 47, 47, 0.5); /* Increased values for more noticeable shadow */
+
+  background-color: white;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  transition: background-color 0.5s; /* Add the transition property */
+  width: 100%;
+
+  z-index: 100; /* Higher z-index value to keep it on top */
+
+ }
+ 
+ .indexbar.fixed {
+  
+  background-color: white; /* Change the background color when fixed */
+}
+.ofertas{
+  margin-top: 10%;
+  color: #002169;
+  font-size: 20px;
+}
+
+ .firstIndex {
+
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: #fff;
+  height: 5.968rem;
+
+}
+
+.firstIndex-Middle{
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Sequel Sans Head", Sans-serif;
+  color: white;
+  z-index: 3;
+}
+
+  
+.Nosotros{
+  text-align: center;
+  height: 400px;
+}
+  
+  /* Clientes-page */
+  /* ------------------------------------------------------- */
+  .middleIndex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccEBFF;
+    height: 12rem;
+  }
+
+
+.ProductosFrase{
+  font-family: "Guardian-EgypTT","Charter","Charter Bitstream","Cambria","Noto Serif Light","Droid Serif","Georgia","serif";
+  font-weight: 300;
+  font-size: 51.01px;
+  line-height: 1.05;
+  letter-spacing: 0px;
+}
+
+.LowerFrase{
+    font-family: "Graphik Webfont","-apple-system","Helvetica Neue","Droid Sans","Arial","sans-serif";
+    font-weight: 500;
+    font-size: 19.01px;
+    margin-top: 1%;
+    line-height: 1.4;
+    letter-spacing: .09505px;
+}
+.navProductos{
+  display: flex;
+  flex-direction: row;
+  font-family: Lato,sans-serif;
+  font-weight: BOLD;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.navProductos a{  text-decoration: none; /* Remove underline */
+  color: #777; /* Default link color */}
+.imageC1{
+  width: 180px; /* Adjust the size of your circle */
+  height: 180px; /* Same as width to make it a perfect circle */
+  border-radius: 50%; /* Make it a circle */
+  overflow: hidden; /* Hide overflow to keep it circular */
+
+ 
+
+  margin: 0 auto;
+  transition: transform .2s; /* Animation */
+
+
+}
+.imageC1:hover{
+ 
+  transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+
+#Slogan{
+  margin-top: 15%;
+}
+
+.columna1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  
+}
+.productosletra{
+  margin-top: 20px;
+  font-size: 120%;
+  margin-bottom: 2%;
+  color: #1a0dab;
+  font-weight: 400;
+  font-family: Lato,sans-serif;
+}
+.productosletra1{
+  margin-top: 5px;
+  font-family: lato, sans-serif;
+  font-size: 15.5px;
+  height: 8%;
+  max-height: max-content;
+  margin-bottom: 2%;
+}
+.columna2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+
+  
+}
+.columna3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+
+}
+.columna4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  
+
+}
+
+.cantidadproductosletra{
+  
+  font-size: 18px;
+  margin-bottom: 10%;
+  font-family: "Graphik Webfont","-apple-system","Helvetica Neue","Droid Sans","Arial","sans-serif";
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: .08px;
+  color: gray;
+}
+
+.columna5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    
+  
+  }
+
+
+
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+
+nav{
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    
+    
+  }
+
+
+/* todos los productos de la pagina */
+/* ------------------------------------------------------- */
+.producto{
+  max-width: 21.5%; /* Set a maximum width for the text container */
+  text-decoration: none; /* Remove underline */
+
+}
+#productCount{
+    color: #0078B7;
+    text-decoration: underline;
+}
+
+.container{
+  height: 2200px;
+  width: 1300px;
+  margin-right: 10%;
+  margin-left: 1%;
+  max-width: 90vw;
+  margin-top: 3%; 
+
+
+}
+
+
+.listProduct{
+  margin-top: 3%;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  
+}
+.productbox{
+  border-radius: 5px;
+  background-color: white;
+  height: 500px;
+  text-align: left;
+  transition: 0.2s;
+}
+.productbox:hover {
+  box-shadow: 1px 2px 10px rgba(48, 47, 47, 0.5); /* Increased values for more noticeable shadow */
+}
+.listProduct .item h2{
+  
+  font-weight: 500;
+  font-size: large;
+  margin-bottom:2px;
+}
+.listProduct a {
+
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
+}
+.listProduct .item .price{
+  
+  font-family: Proxima Nova,-apple-system,Roboto,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #FF003B;
+
+}
+.listProduct .item h2:hover{
+  color: #0078B7;
+}
+
+.listProduct .item .price, h2{
+  
+ margin-left: 5%;
+ margin-right: 6%;
+
+}
+
+.listProduct .item img{
+  margin-top: 1%;
+  height: 350px;
+}
+
+/* // ipad */
+@media only screen and (max-width: 992px) {
+  .listProduct{
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .detail{
+      grid-template-columns:  40% 1fr;
+  }
+}
+
+
+
+
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .listProduct{
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .detail{
+      text-align: center;
+      grid-template-columns: 1fr;
+  }
+  .detail .image img{
+      width: unset;
+      height: 40vh;
+  } 
+  .detail .name{
+      font-size: x-large;
+      margin: 0;
+
+  }
+  .detail .buttons button{
+      font-size: small;
+  }
+  .detail .buttons{
+      justify-content: center;
+  }
+}
+
+
+
+.bigcontainer{
+  display: flex;
+  flex-direction: row;
+}
+  
+.container2{
+
+margin-left: 10%;
+width: 18%; /* Adjust the width as needed */
+
+background-color: white;
+height: fit-content;
+margin-top: 3%; 
+border: 0;
+border-radius: 4px;
+
+}
+.categorias{
+  padding: 15px 15px;
+    font-size: 1.4rem;
+    position: relative;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #373d3f;
+    line-height: 1.1;
+}
+
+ h3 {
+  
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 10px;
+  font-size: 17px;
+  color: #373d3f;
+}
+
+
+li a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  
+}
+li a:hover{
+  text-decoration:underline;
+
+}
+ul{
+  
+  list-style-type: none;
+  margin: 0px; /* Remove any default margin */
+}
+
+
+li{
+  border: solid 2px white;
+}
+.dropdown{
+  display: flex;
+  justify-content: center;
+}
+/* Dropdown button */
+.dropbtn {
+  background-color: #fff; 
+  color: #333;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 18rem;
+
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  position: absolute;
+  display: none;
+  margin-top: 2.8%;
+  margin-left: 6.1%;
+
+  width: fit-content;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  
+  display: block;
+}
+
+
+
+
+/* Show the dropdown menu when the dropdown button is clicked */
+.dropdown.active .dropdown-content {
+  display: block;
+  
+}
+
+
+
+
+
+/* Contactenos page */
+/* ------------------------------------------------------- */
+.contactanos-page{ 
+  display: flex;
+  flex-direction: row;
+  background-color: #102169;
+  height: 620px;
+}
+
+.contactanos-title{
+  margin-top: 10%;
+
+  color:transparent;
+  font-size: 40px;
+}
+.contact-form {
+  width: 65%;
+  padding: 20px;
+  margin-left: 8%;
+  border-radius: 5px;
+  color: white;
+}
+
+.contactenos {
+  font-size: 60px;
+  font-family: Lato,sans-serif;
+
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.form-group1{
+  display: flex;
+  font-size: 20px;
+
+  flex-direction: column;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group1 label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group1 input[type="email"], textarea {
+  width:90%;
+  
+  padding: 10px 10px 10px 0;
+  background-color: #102169;
+  margin-bottom: 10px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color:#0078B7;
+  border-bottom: 1px solid white;
+}
+
+.form-group textarea {
+  width:89%;
+  padding: 10px 10px 10px 10px;
+  background-color: #102169;
+  margin-bottom: 10px;
+  color:#0078B7;
+  border: 1px solid white;
+}
+
+
+
+.custom-input.autofilled {
+  background-color:  #102169; /* Set your desired background color */
+  outline: none;
+
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+
+    outline: none;
+}
+
+
+
+.formflex{
+  display: flex;
+  margin-right: 3%;
+  width:59%;
+}
+
+
+.formflex1{
+  display: flex;
+  
+  width:59%;
+}
+
+#email{
+  width: 212%;
+}
+
+#telefono{
+  width: 212%;
+  
+}
+
+
+textarea {
+  resize: none;
+  border: 1px solid white;
+
+    height: 140px; /* Set the desired height */
+}
+
+#button {
+  border: 3px solid white;
+  background-color: white; /* Set the background color */
+  color:#102169; /* Set the text color */
+  padding: 10px 35px; /* Set padding around the text */
+  margin-left: 60%;
+  font-size: 20px; /* Set the font size */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  border-radius: 4px; /* Add rounded corners */
+}
+
+#button:hover {
+  background-color: #0056b3;
+}
+
+.formtorow{
+  display: flex;
+  width: 91%;
+  flex-direction: row;
+}
+
+
+.contactanosDirecciones{
+  width: 35%;
+}
+
+.Visitenos{
+  margin-top: 30%;
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.7em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 4%;
+}
+
+.Telefono{
+  margin-top: 10%;
+  
+    color: white;
+    font-family:  "Sequel Sans Body";
+    font-size: 1.7em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 4%;
+}
+
+.lugardelLocal{
+  display: block;
+  margin-top: 1%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.allrights{
+  height: 50px;
+  background-color: #1B1B1B;
+  
+}
+
+.hoyber{
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top:1.2% ;
+  text-align: center;
+}
