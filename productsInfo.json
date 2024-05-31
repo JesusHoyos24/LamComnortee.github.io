@@ -1,144 +1,150 @@
 
    [
+       {
+     "id": 1,
+    "name": "Cerradura Con Llave Marca Phillips",
+    "image": "cerradura/cerradura philips.png",
+    "price": "$160"
+    },
     {
-      "id": 1,
+      "id": 2,
       "name": "Ventana Aluminio Negro Con Mosquitero (60 x 40)",
       "image": "ventanas/ventanaAluminioNegro.png",
       "price": "$699"
     },
 
       {
-        "id": 2,
+        "id": 3,
         "name": "Puerta de Tambor HDF Lisa, Color Roble",
         "image": "FOTOS PUERTAS/Puerta-de-Tambor-HDF-Lisa-Color-Roble.jpg",
         "price": "$769"
       },
 
       {
-        "id": 3,
+        "id": 4,
         "name": "Puerta de Tambor HDF Lisa, Color Blanco Arena",
         "image": "FOTOS PUERTAS/Puerta-de-Tambor-HDF-Lisa-Color-Blanco-Arena.jpg",
         "price": "$769"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Puerta de Tambor HDF Lisa, Color Chocolate",
         "image": "FOTOS PUERTAS/Puerta-de-Tambor-HDF-Lisa-Color-Chocolate.jpg",
         "price": "$799"
       },
       {
-        "id": 5,
+        "id": 6,
         "name": "Puerta de Tambor HDF Lisa, Color Gris Veteado",
         "image": "FOTOS PUERTAS/Puerta-de-Tambor-HDF-Lisa-Gris-Veteado.jpg",
         "price": "$899"
       },
       {
-        "id": 6,
+        "id": 7,
         "name": "Ventana Aluminio Blanco Con Mosquitero (0.90 x 0.90)",
         "image": "ventanas/ventana aluminio blanco.png",
         "price": "$999"
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "Ventana Aluminio Blanco Con Mosquitero (1.40 x 1.40)",
         "image": "ventanas/ventana aluminio blanco.png",
         "price": "$1,499"
     },
       {
-        "id": 8,
+        "id": 9,
         "name": "Puerta de Acero Lisa, Color Blanco Arena",
         "image": "FOTOS PUERTAS/Puerta-de-Acero-Lisa-Color-Blanco-Arena.jpg",
         "price": "$1,499"
       },
       {
-        "id": 9,
+        "id": 10,
         "name": "Ventana Aluminio Blanco Con Vidrio Y Mosquitero (1.20 x 1.20)",
         "image": "ventanas/ventana aluminio blanca con mosquetero y vidrioF.png",
         "price": "$1,549"
     },
       {
-        "id": 10,
+        "id": 11,
         "name": "Puerta de Acero 6 Paneles, Color Blanco Arena",
         "image": "FOTOS PUERTAS/Puerta-de-Acero-6-Paneles-Mixta-Color-Blanco-Arena.jpg",
         "price": "$1,999"
       },
       {
-        "id":11,
+        "id":12,
         "name": "Puerta de Acero Lisa, Color Chocolate",
         "image": "FOTOS PUERTAS/acero chocolate1.png",
         "price": "$1,999"
       },
       {
-        "id": 12,
+        "id": 13,
         "name": "Puerta de Acero 6 Paneles, Color Chocolate ",
         "image": "FOTOS PUERTAS/Puerta-de-Acero-6-Paneles-Mixta-Color-Chocolate-Texturizada (1).jpg",
         "price": "$2,899"
       },
       {
-        "id": 13,
+        "id": 14,
         "name": "Puerta de Acero Lisa, Color Gris Oxford",
         "image": "FOTOS PUERTAS/gris oxford.png",
         "price": "$3,299"
       },
       {
-        "id": 14,
+        "id": 15,
         "name": "Puerta de Acero Lisa, Color Roble Veteada",
         "image": "FOTOS PUERTAS/acero roble veteada.png",
         "price": "$3,299"
       },
 
       {
-        "id": 15,
+        "id": 16,
         "name": "Puerta de Acero Lisa, Color Veteada Cafe",
         "image": "FOTOS PUERTAS/acero veteada.png",
         "price": "$3,299"
       },
     
       {
-        "id": 16,
+        "id": 17,
         "name": "Puerta de Acero Media Luna, Color Blanco ",
         "image": "FOTOS PUERTAS/Puerta-de-Acero-Media-LunaColor-Blanco-Arena.png",
         "price": "$3,299"
       },
       {
-        "id": 17,
+        "id": 18,
         "name": "Puerta de Acero 9 Luces, Clásica, Mixta y Lisa, Color Blanco Arena",
         "image": "FOTOS PUERTAS/Puerta-de-Acero-9-Luces-Color-Blanco-Arena-1.jpg",
         "price": "$3,549"
       },
       {
-        "id": 18,
+        "id": 19,
         "name": "Lamina Galvanizada ZINTRO-ALUM CAL 32",
         "image": "laminas/zintroalum.png",
         "price": "DESDE: $199"
     },
     {
    
-      "id": 19,
+      "id": 20,
       "name": "Aceroteja Roja CAL 26 Pintro Rojo ",
       "image": "laminas/ACEROTEJA ROJA.png",
       "price": "DESDE: $395"
     },
     {
-        "id": 20,
+        "id": 21,
         "name": "Aceroteja Azul",
         "image": "laminas/ACEROTEJA AZUL.png",
         "price": "DESDE: $395"
     },
     {
-        "id": 21,
+        "id": 22,
         "name": "Aceroteja Verde",
         "image": "laminas/ACEROTEJA VERDE.png",
         "price": "DESDE: $395"
     },
     {
-        "id": 22,
+        "id": 23,
         "name": "Lamina Galvanizada ZINTRO-ALUM R-101 CAL 28 ",
         "image": "laminas/zintroalum.png",
         "price": "DESDE: $398"
       },
       {
-        "id": 23,
+        "id": 24,
         "name": "Lamina Galvanizada Pintro Rojo/Blanco R-101 CAL 26",
         "image": "laminas/lamina rojo y Blanco.png",
         "price": "DESDE: $398"
