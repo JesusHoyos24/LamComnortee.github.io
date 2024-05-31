@@ -165,7 +165,7 @@
         newProduct.classList.add('item');
         newProduct.dataset.productId = product.id;
         newProduct.innerHTML =
-          `<img src="${product.image}" alt="" loading="lazy">
+          `<img src="${product.image}" alt="" >
           <h2>${product.name}</h2>
           <div class="price">${product.price}</div>`;
         listProduct.appendChild(newProduct);
