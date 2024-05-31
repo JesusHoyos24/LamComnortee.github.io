@@ -1,25 +1,25 @@
 [
     
     {
-      "id": 1,
+      "id": 2,
       "name": "Ventana Aluminio Negro Con Mosquitero (60 x 40)",
       "image": "ventanas/ventanaAluminioNegro.png",
       "price": "$699"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Ventana Aluminio Blanco Con Mosquitero (0.90 x 0.90)",
       "image": "ventanas/ventana aluminio blanco.png",
       "price": "$999"
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Ventana Aluminio Blanco Con Mosquitero (1.40 x 1.40)",
         "image": "ventanas/ventana aluminio blanco.png",
         "price": "$1,499"
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "Ventana Aluminio Blanco Con Vidrio Y Mosquitero (1.20 x 1.20)",
         "image": "ventanas/ventana aluminio blanca con mosquetero y vidrioF.png",
         "price": "$1,549"
