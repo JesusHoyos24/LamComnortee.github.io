@@ -27,17 +27,21 @@
   padding-bottom: 5%;
   }
   
-  .form-group {
+ .form-group {
     display: flex;
     flex-direction: column;
+    width: 100%;
     font-size: 20px;
   }
   .form-group1{
     display: flex;
     font-size: 20px;
+    width: 100%;
   margin-top: 5%;
     flex-direction: column;
   }
+  
+
   
   .form-group label {
     display: block;
@@ -177,10 +181,17 @@
     margin-top: auto;
     }
     #telefono{
-      width: 58%;
+      width: 100%;
       margin-left: 5%;
       margin-right: 5%;
       }
+
+      #telefono1{
+        width: 58%;
+        margin-left: 5%;
+        margin-right: 5%;
+        }
+
   .Telefono{
     margin-top: 10%;
     
