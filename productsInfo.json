@@ -71,7 +71,7 @@
       {
         "id":12,
         "name": "Puerta de Acero Lisa, Color Chocolate",
-        "image": "FOTOS PUERTAS/acero chocolate1.png",
+        "image": "FOTOS PUERTAS/acero chocolate1.jpg",
         "price": "$1,999"
       },
       {
@@ -83,27 +83,27 @@
       {
         "id": 14,
         "name": "Puerta de Acero Lisa, Color Gris Oxford",
-        "image": "FOTOS PUERTAS/gris oxford.png",
+        "image": "FOTOS PUERTAS/gris oxford.jpg",
         "price": "$3,299"
       },
       {
         "id": 15,
         "name": "Puerta de Acero Lisa, Color Roble Veteada",
-        "image": "FOTOS PUERTAS/acero roble veteada.png",
+        "image": "FOTOS PUERTAS/acero roble veteada.jpg",
         "price": "$3,299"
       },
 
       {
         "id": 16,
         "name": "Puerta de Acero Lisa, Color Veteada Cafe",
-        "image": "FOTOS PUERTAS/acero veteada.png",
+        "image": "FOTOS PUERTAS/acero veteada.jpg",
         "price": "$3,299"
       },
     
       {
         "id": 17,
         "name": "Puerta de Acero Media Luna, Color Blanco ",
-        "image": "FOTOS PUERTAS/Puerta-de-Acero-Media-LunaColor-Blanco-Arena.png",
+        "image": "FOTOS PUERTAS/Puerta-de-Acero-Media-LunaColor-Blanco-Arena.jpg",
         "price": "$3,299"
       },
       {
