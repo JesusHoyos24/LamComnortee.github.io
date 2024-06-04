@@ -3,13 +3,13 @@
        {
      "id": 1,
     "name": "Cerradura Con Llave Marca Phillips",
-    "image": "cerradura/cerradura philips.png",
+    "image": "cerradura/cerradura philips.jpg",
     "price": "$160"
     },
     {
       "id": 2,
       "name": "Ventana Aluminio Negro Con Mosquitero (60 x 40)",
-      "image": "ventanas/ventanaAluminioNegro.png",
+      "image": "ventanas/ventanaAluminioNegro.jpg",
       "price": "$699"
     },
 
@@ -41,13 +41,13 @@
       {
         "id": 7,
         "name": "Ventana Aluminio Blanco Con Mosquitero (0.90 x 0.90)",
-        "image": "ventanas/ventana aluminio blanco.png",
+        "image": "ventanas/ventana aluminio blanco.jpg",
         "price": "$999"
       },
       {
         "id": 8,
         "name": "Ventana Aluminio Blanco Con Mosquitero (1.40 x 1.40)",
-        "image": "ventanas/ventana aluminio blanco.png",
+        "image": "ventanas/ventana aluminio blanco.jpg",
         "price": "$1,499"
     },
       {
@@ -59,7 +59,7 @@
       {
         "id": 10,
         "name": "Ventana Aluminio Blanco Con Vidrio Y Mosquitero (1.20 x 1.20)",
-        "image": "ventanas/ventana aluminio blanca con mosquetero y vidrioF.png",
+        "image": "ventanas/ventana aluminio blanca con mosquetero y vidrioF.jpg",
         "price": "$1,549"
     },
       {
@@ -115,38 +115,38 @@
       {
         "id": 19,
         "name": "Lamina Galvanizada ZINTRO-ALUM CAL 32",
-        "image": "laminas/zintroalum.png",
+        "image": "laminas/zintroalum.jpg",
         "price": "DESDE: $199"
     },
     {
    
       "id": 20,
       "name": "Aceroteja Roja CAL 26 Pintro Rojo ",
-      "image": "laminas/ACEROTEJA ROJA.png",
+      "image": "laminas/ACEROTEJA ROJA.jpg",
       "price": "DESDE: $395"
     },
     {
         "id": 21,
         "name": "Aceroteja Azul",
-        "image": "laminas/ACEROTEJA AZUL.png",
+        "image": "laminas/ACEROTEJA AZUL.jpg",
         "price": "DESDE: $395"
     },
     {
         "id": 22,
         "name": "Aceroteja Verde",
-        "image": "laminas/ACEROTEJA VERDE.png",
+        "image": "laminas/ACEROTEJA VERDE.jpg",
         "price": "DESDE: $395"
     },
     {
         "id": 23,
         "name": "Lamina Galvanizada ZINTRO-ALUM R-101 CAL 28 ",
-        "image": "laminas/zintroalum.png",
+        "image": "laminas/zintroalum.jpg",
         "price": "DESDE: $398"
       },
       {
         "id": 24,
         "name": "Lamina Galvanizada Pintro Rojo/Blanco R-101 CAL 26",
-        "image": "laminas/lamina rojo y Blanco.png",
+        "image": "laminas/lamina rojo y Blanco.jpg",
         "price": "DESDE: $398"
       }
     ]
