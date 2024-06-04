@@ -476,25 +476,28 @@ body{
 /*1era parte de la pagina*/
 /*------------------------------------------------------------------------------------------*/
 .firstIndex {
-  background-image: url(prueba.jpg);
-  display: flex;
-  flex-direction: column;
   color: #fff;
-  width: fit-content;
-  background-size: cover;
-  background-position: center;
-  width:100%;
-  background-blend-mode: multiply;
+  position: relative;
+  width: 100%; /* You can set the width as needed */
+}
+.indeximg{
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
-
 .firstIndex-Middle{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   align-items: center;
-
   text-align: center;
   font-weight: bold;
   font-family: "Sequel Sans Head", Sans-serif;
-  color: white;
 }
 
 
@@ -780,8 +783,3 @@ padding-bottom: 1%;
 #nextButton {
   right: 10px;
 }
-
-
-
-
-
