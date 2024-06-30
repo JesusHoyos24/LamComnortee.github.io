@@ -104,6 +104,8 @@
     border-left: none;
     border-right: none;
     border-top: none;
+    border-bottom: NONE;
+
     color:#0078B7;
     width: 100%;
     border-bottom: 1px solid white;
