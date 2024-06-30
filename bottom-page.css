@@ -27,22 +27,66 @@
   padding-bottom: 5%;
   }
   
- .form-group {
+
+.telefonoWHOLE, .emailWHOLE{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.telefonoWHOLE{
+  margin-right: 3%;
+}
+
+.emailWHOLE{
+  margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+  .form-group {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 1%;
+  margin-bottom: 1%;
     font-size: 20px;
   }
   .form-group1{
     display: flex;
     font-size: 20px;
     width: 100%;
-  margin-top: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
     flex-direction: column;
   }
   
 
-  
+
+
+
+
+.telephone, .email{
+  font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
   .form-group label {
     display: block;
     margin-bottom: 5px;
@@ -54,7 +98,7 @@
   
   .form-group input[type="text"], textarea {
     
-    padding: 10px 10px 10px 0;
+    padding:   5px 0;
     background-color: #102169;
     margin-bottom: 3%;
     border-left: none;
@@ -69,7 +113,6 @@
   .form-group1 input[type="email"], textarea {
     
     background-color: #102169;
-    margin-bottom: 3%;
     border-left: none;
     border-right: none;
     border-top: none;
@@ -104,18 +147,14 @@
   
   
   .formflex{
-    display: flex;
-    margin-right: 3%;
-    width:100%;
     border-bottom: 1px solid white;
-  
+    margin-bottom: 3%;
   }
   
   
   .formflex1{
     display: flex;
     border-bottom: 1px solid white;
-    margin: 0;
     width:100%;
   
   }
@@ -143,7 +182,6 @@
   
   .formtorow{
     display: flex;
-    margin-bottom: 2%;
     width: 100%;
   }
   
@@ -185,13 +223,11 @@
       margin-left: 5%;
       margin-right: 5%;
       }
-
       #telefono1{
         width: 58%;
         margin-left: 5%;
         margin-right: 5%;
         }
-
   .Telefono{
     margin-top: 10%;
     
