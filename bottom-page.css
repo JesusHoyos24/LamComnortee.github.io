@@ -98,17 +98,11 @@
   
   .form-group input[type="text"], textarea {
     
-    padding:   5px 0;
     background-color: #102169;
-    margin-bottom: 3%;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-bottom: NONE;
+    border: none;
 
     color:#0078B7;
     width: 100%;
-    border-bottom: 1px solid white;
   }
   
   .form-group input[type="tel"],
